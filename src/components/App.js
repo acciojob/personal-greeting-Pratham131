@@ -11,12 +11,13 @@ const App = () => {
         {/* Do not remove the main div */}
         
         <form>
-        Enter your name:<input type="text"
+          <p>Enter your name:</p>
+          <input type="text"
           value={name}
           onChange={(e)=>setName(e.target.value)}/>
         </form>
         
-        {name!="" ? <p>Hello {name} </p>:""}
+        {name!="" ? <p>Hello {name}!</p>:""}
     </div>
   )
 }
