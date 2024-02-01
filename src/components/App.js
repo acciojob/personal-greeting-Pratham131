@@ -9,9 +9,9 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        <p>Enter your name:</p>
+        
         <form>
-          <input type="text"
+        Enter your name:<input type="text"
           value={name}
           onChange={(e)=>setName(e.target.value)}/>
         </form>
