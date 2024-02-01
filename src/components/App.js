@@ -11,7 +11,7 @@ const App = () => {
         {/* Do not remove the main div */}
         
         <form>
-          Enter your name:
+          <p>Enter your name:</p>
           <input type="text"
           value={name}
           onChange={(e)=>setName(e.target.value)}/>
