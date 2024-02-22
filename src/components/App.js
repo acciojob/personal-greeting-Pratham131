@@ -17,7 +17,7 @@ const App = () => {
           onChange={(e)=>setName(e.target.value)}/>
         </form>
         
-        {name!="" ? <p>Hello {name}!</p>:""}
+        <p>Hello {name}!</p>
     </div>
   )
 }
